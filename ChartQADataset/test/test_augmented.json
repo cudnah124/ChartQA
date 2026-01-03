@@ -1,0 +1,428 @@
+[
+  {
+    "image": "two_col_102007.png",
+    "question": "What was the turnover of the textile manufacturing industry in 2016?",
+    "answer": "<think>The chart is a bar chart showing annual turnover in million euros for different years. The x-axis represents the years from 2008 to 2016. The y-axis represents the annual turnover in million euros. To find the turnover for 2016, I located the bar corresponding to the year \"2016\" on the x-axis. The value displayed on top of this bar is 2094.6. The unit is \"million euros\" as indicated by the y-axis label.</think>\n<answer>2094.6</answer>",
+    "label": "2094.6"
+  },
+  {
+    "image": "two_col_100746.png",
+    "question": "Who has the most hits in Kansas City Royals franchise history?",
+    "answer": "<think>The chart displays a horizontal bar chart showing the number of hits for various players. The y-axis lists player names, and the x-axis represents the \"Number of hits\". To find who has the most hits, I need to identify the longest bar, which corresponds to the highest value. The bar for \"George Brett\" is the longest and has an associated value of 3154, which is the highest number among all listed players.</think>\n<answer>George Brett</answer>",
+    "label": "George Brett"
+  },
+  {
+    "image": "two_col_5263.png",
+    "question": "What was the median annual gross salary in the financial services activities sector in 2020?",
+    "answer": "<think>The bar chart displays median annual salary in GBP for various sectors. To answer the question, I located the bar corresponding to \"Financial services activities\" on the x-axis. The value directly above this bar, indicating its height on the y-axis (median annual salary), is 42 125. The y-axis unit is GBP. The copyright indicates the data is from 2021, implying it reflects the most recent full year, which would be 2020.</think>\n<answer>42125</answer>",
+    "label": "42125"
+  },
+  {
+    "image": "two_col_2532.png",
+    "question": "What was the total assets of the HSBC bank in dollars in 2020?",
+    "answer": "<think>The question asks for the total assets of HSBC bank in 2020. I will locate the year 2020 on the x-axis of the bar chart. Then, I will read the numerical value displayed directly above the bar corresponding to 2020. The y-axis indicates that these values are in \"billion U.S. dollars\". The value above the 2020 bar is 2984.16.</think>\n<answer>2984.16</answer>",
+    "label": "2984.16"
+  },
+  {
+    "image": "two_col_1124.png",
+    "question": "Which team had the lowest attendance during the 2019/20 season?",
+    "answer": "<think>The chart is a horizontal bar chart displaying the average attendance for various football teams. The teams are listed on the y-axis (vertical axis), and the average attendance is shown on the x-axis (horizontal axis). To find the team with the lowest attendance, I need to look for the bar that is shortest or has the smallest numerical value associated with it. Scanning the chart from top to bottom, the numerical values decrease. The very last bar in the chart represents \"SC Paderborn 07\" with an attendance of \"11 038\", which is the smallest value displayed.</think>\n<answer>SC Paderborn 07</answer>",
+    "label": "SC Paderborn 07"
+  },
+  {
+    "image": "two_col_63651.png",
+    "question": "What was Alibaba Group's brand value in 2020?",
+    "answer": "<think>The chart displays \"Brand value in billion euros\" on the x-axis and \"Brand corporation\" on the y-axis. I located \"Alibaba Group (retail)\" on the y-axis. The corresponding blue horizontal bar has a numerical value of 80.84 displayed at its end. This value represents Alibaba Group's brand value. The chart's source is \"Statista 2021\", indicating the data pertains to 2020 or the latest available data before 2021.</think>\n<answer>80.84</answer>",
+    "label": "80.84"
+  },
+  {
+    "image": "two_col_81623.png",
+    "question": "Which country had the highest number of hospital admissions for COPD in 2015?",
+    "answer": "<think>The bar chart displays countries and their corresponding number of hospital admissions. The countries are listed on the y-axis, and the number of hospital admissions is on the x-axis. The bars are arranged in descending order of value, meaning the longest bar at the top represents the highest number. The bar for Austria is the longest, showing a value of 286.1. This indicates Austria had the highest number of hospital admissions among the listed countries.</think>\n<answer>Austria</answer>",
+    "label": "Austria"
+  },
+  {
+    "image": "multi_col_80420.png",
+    "question": "Which supermarket chain was the favorite to a large part of the Spanish population?",
+    "answer": "<think>The chart displays the market share of different supermarket chains across three periods. To identify the favorite supermarket, I looked for the largest percentage segment within each stacked bar. In all three periods (\"Hoarding,\" \"Confinement,\" \"Descaling\"), the lowest blue segment consistently represents the largest market share (25.3%, 24.7%, 24.2%). Matching this blue color to the legend reveals that it corresponds to \"Mercadona.\"</think>\n<answer>Mercadona</answer>",
+    "label": "Mercadona"
+  },
+  {
+    "image": "two_col_80814.png",
+    "question": "What was the value of private equity investments in 2016?",
+    "answer": "<think>The bar chart displays total investment in million euros from 2007 to 2016. The x-axis represents the years, and the y-axis represents the total investment. To find the value for 2016, I located the bar corresponding to \"2016\" on the x-axis. The numerical value displayed on top of this bar is 3916.26.</think>\n<answer>3916.26</answer>",
+    "label": "3916.26"
+  },
+  {
+    "image": "two_col_6417.png",
+    "question": "What was the GDP of the construction industry in Newfoundland and Labrador in 2012 Canadian dollars?",
+    "answer": "<think>The chart displays GDP in million chained 2012 Canadian dollars for various industries. I located \"Construction\" on the vertical axis (industry categories). I then read the numerical value associated with the bar for \"Construction\", which is 2724.7. The x-axis label confirms the unit is \"GDP in million chained 2012 Canadian dollars\".</think>\n<answer>2724.7</answer>",
+    "label": "2724.7"
+  },
+  {
+    "image": "two_col_41271.png",
+    "question": "What was the infant mortality rate in France in 2019?",
+    "answer": "<think>The user is asking for the infant mortality rate in France in 2019 from the provided bar chart. I will locate the year 2019 on the x-axis. Then, I will find the bar corresponding to 2019 and read the numerical value labeled at the top of that bar, which represents \"Deaths per 1,000 live births\" (infant mortality rate) as indicated by the y-axis label.</think>\n<answer>3.8</answer>",
+    "label": "3.8"
+  },
+  {
+    "image": "two_col_4010.png",
+    "question": "How many people were living below the poverty line in the United States in 2019?",
+    "answer": "<think>The chart is a horizontal bar chart showing the number of poor people in millions in the United States by year. To answer the question, I located the year \"2019\" on the vertical (y) axis. I then read the data label corresponding to the bar for 2019, which is \"33.98\". The x-axis title indicates that these numbers are in millions.</think>\n<answer>33.98</answer>",
+    "label": "33.98"
+  },
+  {
+    "image": "two_col_20030.png",
+    "question": "What was the estimated value of the Phoenix Suns in 2021?",
+    "answer": "<think>The user wants to find the estimated franchise value for the year 2021 from the provided bar chart.\n\n1.  **Identify the relevant axes:** The horizontal x-axis represents the year, and the vertical y-axis represents the \"Franchise value in million U.S. dollars\".\n2.  **Locate the target year:** Find the year 2021 on the x-axis. It is the last bar on the right side of the chart.\n3.  **Read the corresponding value:** The value for the year 2021 is explicitly labeled above its corresponding blue bar.\n4.  **Extract the numerical value:** The number written above the 2021 bar is \"1,700\".\n5.  **Combine the value with the unit:** The y-axis specifies the unit as \"million U.S. dollars\". Therefore, the value is 1,700 million U.S. dollars.</think>\n<answer>1700</answer>",
+    "label": "1700"
+  },
+  {
+    "image": "two_col_61305.png",
+    "question": "What was the infant mortality rate in Latvia in 2019?",
+    "answer": "<think>The chart is a bar chart displaying deaths per 1,000 live births over the years 2009 to 2019. To find the infant mortality rate in 2019, I locate the year 2019 on the x-axis. Then, I read the value displayed on top of the bar corresponding to 2019. The value is 3.1.</think>\n<answer>3.1</answer>",
+    "label": "3.1"
+  },
+  {
+    "image": "two_col_62595.png",
+    "question": "How many deaths were caused by mirtazapine in 2019?",
+    "answer": "<think>The bar chart displays the number of deaths per year. The x-axis represents the years from 2000 to 2019. The y-axis represents the \"Number of deaths\". To find the number of deaths in 2019, I located the bar corresponding to the year 2019 on the x-axis. The value labeled above this bar is 100.</think>\n<answer>100</answer>",
+    "label": "100"
+  },
+  {
+    "image": "two_col_41347.png",
+    "question": "Which country was Vietnam's most important import partner in 2019?",
+    "answer": "<think>The bar chart displays the \"Share in total import\" for three countries: China, South Korea, and Japan. The Y-axis represents the percentage share. China has a share of 35%, South Korea has 18%, and Japan has 6%. To find the most important import partner, I need to identify the country with the largest share in total import. China has the highest share at 35%.</think>\n<answer>China</answer>",
+    "label": "China"
+  },
+  {
+    "image": "two_col_20788.png",
+    "question": "What was Portugal's wine production forecast to reach in 2018?",
+    "answer": "<think>The bar chart displays wine production in thousands of hectoliters for various years. The x-axis shows the years from 2006 to 2018. The y-axis indicates \"Thousands of hectoliters\". To find Portugal's wine production forecast for 2018, I located the year \"2018**\" on the x-axis and read the value above its corresponding bar. The value shown for 2018** is 6.1.</think>\n<answer>6.1</answer>",
+    "label": "6.1"
+  },
+  {
+    "image": "two_col_3215.png",
+    "question": "How much was the estimated value of the damage caused by a flood in China in 1998?",
+    "answer": "<think>The chart displays a horizontal bar chart showing economic damage from various floods. The y-axis lists the flood events with country and date, and the x-axis represents the economic damage in billion U.S. dollars. I located \"China, (July 1, 1998)\" on the y-axis. I then followed its corresponding bar to read the value displayed at its end, which is 30.</think>\n<answer>30</answer>",
+    "label": "30"
+  },
+  {
+    "image": "two_col_4667.png",
+    "question": "Which team paid the most in player salaries in 2014/15?",
+    "answer": "<think>The bar chart displays the total payroll in million U.S. dollars for various teams. The teams are listed on the y-axis, and the payroll values are shown on the x-axis and numerically next to each bar. To find the team that paid the most, I need to identify the bar that extends furthest to the right or has the highest numerical value. The chart is sorted in descending order of payroll. The top bar corresponds to \"Los Angeles Dodgers\" with a value of 272.8 million U.S. dollars, which is the highest value presented on the chart.</think>\n<answer>Los Angeles Dodgers</answer>",
+    "label": "Los Angeles Dodgers"
+  },
+  {
+    "image": "two_col_103031.png",
+    "question": "What was Russia's uranium mining production in 2019?",
+    "answer": "<think>The bar chart displays production in metric tons over several years. I located the year 2019 on the x-axis. I then identified the bar corresponding to 2019 and read the value labeled directly above it. The value shown for 2019 is 2,911.</think>\n<answer>2911</answer>",
+    "label": "2911"
+  },
+  {
+    "image": "two_col_82649.png",
+    "question": "In what year did the total sales value of condiments and seasonings in the UK begin?",
+    "answer": "<think>The chart shows the sales value of condiments and seasonings in the UK over the years. The x-axis represents the year and the y-axis represents the sales value in million GBP. The bars start in the year 2008.</think>\n<answer>2008</answer>",
+    "label": "2008"
+  },
+  {
+    "image": "two_col_80486.png",
+    "question": "What was the approval rate of Cristina Fernandez de Kirchner in 2009?",
+    "answer": "<think>The bar chart displays approval rates over different years. The x-axis represents the years from 2002 to 2018. The y-axis represents the approval rate. To find the approval rate in 2009, I located the year '2009' on the x-axis and read the percentage value displayed at the top of the corresponding bar, which is 25%.</think>\n<answer>25</answer>",
+    "label": "25"
+  },
+  {
+    "image": "two_col_417.png",
+    "question": "What was the growth of the real gross domestic product in the United States in 2019?",
+    "answer": "<think>The chart is a bar chart showing the GDP growth rate compared to the previous year for the United States from 2016 to 2026. The x-axis represents the years, and the y-axis represents the GDP growth rate in percentage. To find the growth for 2019, I located the year \"2019\" on the x-axis and then read the percentage value displayed directly above its corresponding bar. The value for 2019 is 2.16%.</think>\n<answer>2.16</answer>",
+    "label": "2.16"
+  },
+  {
+    "image": "two_col_100179.png",
+    "question": "Which country was Chile's most important export partner in 2019?",
+    "answer": "<think>The chart shows the share in total export for different countries. The x-axis represents the countries: China, United States, Japan, and South Korea. The y-axis represents the share in total export, with values from 0% to 40%. The bar for China has the largest value, representing 32%.</think>\n<answer>China</answer>",
+    "label": "China"
+  },
+  {
+    "image": "two_col_62525.png",
+    "question": "What was the global avocado oil market value in dollars in 2018?",
+    "answer": "<think>The question asks for the global avocado oil market value in 2018. I will look at the x-axis for the year \"2018*\". Above the bar for 2018*, the value is clearly displayed as \"430.8\". The y-axis label indicates the unit is \"million U.S. dollars\". Therefore, the value for 2018 is 430.8 million U.S. dollars.</think>\n<answer>430.8</answer>",
+    "label": "430.8"
+  },
+  {
+    "image": "two_col_82870.png",
+    "question": "In what year did the volume of honey exported from Spain peak?",
+    "answer": "<think>The chart is a bar chart displaying export volume in thousand tons from 2012 to 2019. The Y-axis represents the export volume, and the X-axis represents the years. To find the peak year, I need to identify the bar with the highest value. The values above the bars are: 19.9 (2012), 21.8 (2013), 26.5 (2014), 20.2 (2015), 26.7 (2016), 24.8 (2017), 23.1 (2018), and 22.4 (2019). The maximum value is 26.7, which corresponds to the year 2016.</think>\n<answer>2016</answer>",
+    "label": "2016"
+  },
+  {
+    "image": "two_col_6176.png",
+    "question": "What percentage of U.S. mobile users accessed Alphabet's mobile apps?",
+    "answer": "<think>The user has provided a horizontal bar chart and asked for the percentage of U.S. mobile users who accessed Alphabet's mobile apps.\n\n1.  I will examine the chart to understand what it represents. The horizontal axis is labeled \"Net reach\" and is measured in percentages. The vertical axis lists various company names.\n2.  I will locate the company \"Alphabet Inc.\" on the vertical axis. It is the first entry at the top of the chart.\n3.  I will identify the bar corresponding to \"Alphabet Inc.\" and read the value associated with it.\n4.  The blue bar for Alphabet Inc. is the longest, and the text label at the end of the bar explicitly states \"98.8%\".\n5.  This value represents the \"Net reach\" for Alphabet Inc., which, in the context of the question, is the percentage of U.S. mobile users who accessed its apps.</think>\n<answer>98.8</answer>",
+    "label": "98.8"
+  },
+  {
+    "image": "two_col_103525.png",
+    "question": "What was Peru's monetary policy rate in 2018?",
+    "answer": "<think>The bar chart displays the monetary policy rate over different years. The x-axis indicates the years from 2010 to 2018, and the y-axis shows the monetary policy rate in percentage. To find Peru's monetary policy rate in 2018, I located the bar corresponding to the year 2018 on the x-axis. The value displayed directly above this bar is 2.79%.</think>\n<answer>2.79</answer>",
+    "label": "2.79"
+  },
+  {
+    "image": "two_col_82791.png",
+    "question": "What is the estimated number of cattle in Argentina in 2020?",
+    "answer": "<think>The bar chart displays the cattle number in million heads for various years. To find the estimated number for 2020, I located the bar corresponding to the year \"2020*\" on the x-axis. The value displayed directly above this bar is 14.9. The y-axis label confirms the unit is \"million heads\". Therefore, the estimated number is 14.9 million heads.</think>\n<answer>14.9</answer>",
+    "label": "14.9"
+  },
+  {
+    "image": "two_col_24110.png",
+    "question": "How much was Antoine Griezmann's annual salary?",
+    "answer": "<think>The question asks for Antoine Griezmann's annual salary. I located \"Antoine Griezmann\" on the y-axis of the horizontal bar chart. I then read the numerical value at the end of the bar corresponding to Antoine Griezmann, which is 33. The x-axis label indicates these values are \"Annual salaries in millions of euros\".</think>\n<answer>33</answer>",
+    "label": "33"
+  },
+  {
+    "image": "two_col_24402.png",
+    "question": "What was the third most popular payment service in Russia?",
+    "answer": "<think>The bar chart displays various payment services and their 'Share of respondents' in percentages, indicating popularity. To find the third most popular service, I will identify the services with the highest percentages in descending order. Sberbank Online has the highest share at 83%, followed by Yandex Money at 55%. The third highest share belongs to QIWI, at 40%.</think>\n<answer>QIWI</answer>",
+    "label": "QIWI"
+  },
+  {
+    "image": "two_col_62288.png",
+    "question": "What was the percentage of Quebec households with internet access in 2015?",
+    "answer": "<think>The question asks for the percentage of Quebec households with internet access in 2015. I located the year 2015 on the x-axis of the bar chart. I then identified the blue bar corresponding to 2015. The percentage value displayed directly above this bar is 86%. This value represents the share of households with internet access for that specific year.</think>\n<answer>86</answer>",
+    "label": "86"
+  },
+  {
+    "image": "two_col_80023.png",
+    "question": "How many people visited Rock Creek Park in 2020?",
+    "answer": "<think>The bar chart displays the number of visitors in millions per year from 2008 to 2020. The x-axis represents the years, and the y-axis represents the number of visitors in millions. To find the number of visitors in 2020, I located the bar corresponding to \"2020\" on the x-axis. The value displayed directly above this bar is \"1.77\". Since the y-axis is labeled \"Number of visitors in millions\", the answer is 1.77 million.</think>\n<answer>1.77</answer>",
+    "label": "1.77"
+  },
+  {
+    "image": "two_col_103173.png",
+    "question": "How many shops did Dufry have in Asia Pacific in 2020?",
+    "answer": "<think>The user has provided a bar chart and asked for the number of shops Dufry had in the Asia Pacific region in 2020.\n\n1.  **Analyze the chart type:** The image shows a vertical bar chart.\n2.  **Identify the axes:** The vertical (y-axis) represents the \"Number of shops\". The horizontal (x-axis) represents different geographical regions.\n3.  **Locate the relevant category:** I need to find the bar corresponding to the \"Asia Pacific\" region on the x-axis. This is the rightmost bar in the chart.\n4.  **Extract the value:** The chart displays the exact numerical value above each bar. For the \"Asia Pacific\" bar, the value is clearly labeled as \"60\".\n5.  **Confirm the context:** The question asks for the number of shops in 2020. The chart is sourced from Statista in 2021, which typically reports data for the preceding year (2020). Therefore, the data presented in the chart corresponds to the year requested.\n\nBased on these observations, the number of shops in the Asia Pacific region is 60.</think>\n<answer>60</answer>",
+    "label": "60"
+  },
+  {
+    "image": "two_col_83307.png",
+    "question": "In Scotland, how many people are expected to be needed in the logistics industry by 2020?",
+    "answer": "<think>The question asks for the number of people expected to be needed in the logistics industry in Scotland by 2020. I will locate 'Scotland' on the vertical axis of the bar chart. Then, I will read the numerical value displayed next to the horizontal bar corresponding to 'Scotland'. The value shown is 60,000.</think>\n<answer>60000</answer>",
+    "label": "60000"
+  },
+  {
+    "image": "multi_col_20134.png",
+    "question": "What is the estimated cyber security market size of the defense and intelligence sector in 2017?",
+    "answer": "<think>The user wants to find the value for the 'Defence and Intelligence' sector in the year 2017.\n\n1.  **Analyze the chart:** The image provided is a stacked bar chart.\n2.  **Examine the axes:** The horizontal x-axis shows years from 2010 to 2017. The vertical y-axis shows 'Value in million GBP'.\n3.  **Interpret the legend:** The legend explains the colors of the stacked bars. The dark (black/dark blue) section represents 'Defence and Intelligence', and the lighter blue section represents 'Other Public Sector'.\n4.  **Locate the data point:** I will find the bar corresponding to the year 2017 on the x-axis.\n5.  **Extract the value:** Within the 2017 bar, I will look at the dark-colored segment, which represents 'Defence and Intelligence'. The value labeled inside this segment is 250.\n6.  **Determine the units:** The y-axis indicates the value is in 'million GBP'.\n7.  **Combine the value and units:** The estimated market size for the defense and intelligence sector in 2017 is 250 million GBP.</think>\n<answer>250</answer>",
+    "label": "250"
+  },
+  {
+    "image": "two_col_80913.png",
+    "question": "How many people were employed in Puerto Rico in 2019?",
+    "answer": "<think>The chart is a bar chart showing employment in millions for various years from 2012 to 2022. The x-axis represents the years, and the y-axis represents \"Employment in millions\". Each bar has a numerical value at its top indicating the employment figure for that year. To answer the question for 2019, I located \"2019\" on the x-axis, identified the corresponding bar, and read the value displayed above it, which is 0.99.</think>\n<answer>0.99</answer>",
+    "label": "0.99"
+  },
+  {
+    "image": "two_col_61218.png",
+    "question": "In what year did the GVA of the real estate sector dip?",
+    "answer": "<think>The bar chart displays GVA in million GBP from 2008 to 2014. The x-axis represents the years, and the y-axis represents the GVA values. I examined the GVA values for each year: 2008 (134,387), 2009 (122,446), 2010 (142,747), 2011 (159,678), 2012 (173,412), 2013 (174,532), and 2014 (181,052). A dip occurs when the GVA value is lower than the preceding year. Comparing 2009's value (122,446) to 2008's value (134,387), there is a decrease. In all subsequent years, the GVA increased compared to the previous year. Therefore, the dip occurred in 2009.</think>\n<answer>2009</answer>",
+    "label": "2009"
+  },
+  {
+    "image": "two_col_1388.png",
+    "question": "What was the average TV viewership per game in the United States in 2020?",
+    "answer": "<think>The bar chart displays the average TV viewership in millions per game over various years. The x-axis represents the years from 2008 to 2020. The y-axis represents the average TV viewership in millions. To find the viewership for 2020, I located the year '2020' on the x-axis and read the value displayed directly above its corresponding bar, which is 2.15.</think>\n<answer>2.15</answer>",
+    "label": "2.15"
+  },
+  {
+    "image": "multi_col_40878.png",
+    "question": "What percentage of votes did Dansk Folkeparti receive in 2019?",
+    "answer": "<think>The chart displays the share of total votes for various political parties in Denmark for the years 2015 and 2019. The legend indicates that light blue bars represent 2015 and dark blue bars represent 2019. I located \"Dansk Folkeparti\" on the y-axis. For this party, the dark blue bar, representing 2019, has a value of 8.7% displayed next to it.</think>\n<answer>8.7</answer>",
+    "label": "8.7"
+  },
+  {
+    "image": "two_col_42677.png",
+    "question": "How many passenger vehicles did PSA Peugeot Citroen of France produce in 2013?",
+    "answer": "<think>The bar chart displays production in million units from 1999 to 2014. The x-axis represents the year, and the y-axis represents production in million units. To find the production for 2013, I located the bar corresponding to the year 2013 on the x-axis and read the value displayed above it. The value shown for 2013 is 2.45.</think>\n<answer>2.45</answer>",
+    "label": "2.45"
+  },
+  {
+    "image": "two_col_61737.png",
+    "question": "Which country was the leading pharmaceutical supplier to Germany in 2019?",
+    "answer": "<think>The bar chart displays the import value of pharmaceutical products to Germany in 2019, categorized by country of origin. The y-axis lists the countries, and the x-axis represents the import value in billion euros. To find the leading supplier, I identified the country with the longest bar and the highest numerical value associated with it. Switzerland has an import value of 11.87 billion euros, which is the highest among all listed individual countries. The \"Other\" category has 10.99 billion euros, but it's not a single country. Therefore, Switzerland is the leading individual country.</think>\n<answer>Switzerland</answer>",
+    "label": "Switzerland"
+  },
+  {
+    "image": "two_col_23878.png",
+    "question": "What was Brenntag's revenue in 2020?",
+    "answer": "<think>The bar chart displays Brenntag's revenue in billion euros from 2007 to 2020. The x-axis shows the years, and the y-axis shows the revenue values. To find the revenue for 2020, I located the year '2020' on the x-axis. The bar corresponding to 2020 has a value of '11.78' displayed directly above it. This indicates a revenue of 11.78 billion euros for that year.</think>\n<answer>11.78</answer>",
+    "label": "11.78"
+  },
+  {
+    "image": "multi_col_60508.png",
+    "question": "What ethnicity were 4.3 percent of Facebook senior level employees?",
+    "answer": "<think>The question asks to identify the ethnicity for 4.3% of Facebook senior-level employees. I will use the chart's legend to identify \"Leadership\" which is represented by the light gray bars. Then, I will scan the values on top of the light gray bars to find 4.3% and identify the corresponding ethnicity on the x-axis. The light gray bar above \"Hispanic\" shows a value of 4.3%.</think>\n<answer>Hispanic</answer>",
+    "label": "Hispanic"
+  },
+  {
+    "image": "multi_col_40486.png",
+    "question": "Where were 48 percent of Sony's employees located in the financial year 2020?",
+    "answer": "<think>The user is asking to identify the location where 48% of Sony's employees were in 2020.\nI need to look at the bar for the year 2020 on the chart.\nThen, I will look for the segment within that bar that shows \"48%\".\nFinally, I will use the legend to identify the location corresponding to the color of that segment.\n\n1. Locate the year \"2020\" on the x-axis.\n2. Observe the stacked bar for 2020.\n3. Find the segment that displays \"48%\". This is the bottom segment, colored blue.\n4. Refer to the legend: The blue color corresponds to \"Japan\".</think>\n<answer>Japan</answer>",
+    "label": "Japan"
+  },
+  {
+    "image": "two_col_3756.png",
+    "question": "How many people visited Google Sites in April 2021?",
+    "answer": "<think>The question asks for the number of visitors to Google Sites. I located \"Google Sites\" on the y-axis of the bar chart. I then read the corresponding value on the x-axis, which is displayed as a label at the end of the bar. For Google Sites, this value is 271.8. The x-axis and the overall chart context indicate that these numbers represent \"Number of visitors in millions\".</think>\n<answer>271.8</answer>",
+    "label": "271.8"
+  },
+  {
+    "image": "multi_col_60320.png",
+    "question": "How many smartphone gamers were in North America in 2017?",
+    "answer": "<think>To answer the question, I located the \"Smartphone gamer only\" category on the x-axis. Then, I identified the bar corresponding to the year 2017, which is represented by the dark red color according to the legend. I read the value displayed on top of this specific bar. The value for \"Smartphone gamer only\" in 2017 is 75. The y-axis indicates the number of gamers in millions.</think>\n<answer>75</answer>",
+    "label": "75"
+  },
+  {
+    "image": "two_col_61281.png",
+    "question": "What year did global primary production volumes for nickel last?",
+    "answer": "<think>The question asks for the year when global primary production volumes for nickel \"last\". Interpreting \"last\" in the context of a time series chart typically refers to the final chronological year for which data is presented. The x-axis of the bar chart displays years from 2008 to 2014. The chronologically last year shown on this axis is 2014.</think>\n<answer>2014</answer>",
+    "label": "2014"
+  },
+  {
+    "image": "two_col_1351.png",
+    "question": "How many movie admissions were there in 2020?",
+    "answer": "<think>The chart displays the \"Number of tickets sold in millions\" over the years from 1980 to 2020. To find the movie admissions in 2020, I located the year 2020 on the x-axis. I then followed the vertical line for 2020 up to the data point on the blue line. The value labeled above this data point is 223.86. Since the y-axis indicates units in \"millions\", the value for 2020 is 223.86 million.</think>\n<answer>223.86</answer>",
+    "label": "223.86"
+  },
+  {
+    "image": "two_col_22925.png",
+    "question": "What was the population density of Georgia in 2018?",
+    "answer": "<think>The bar chart displays the \"Number of residents per square mile\" (population density) on the y-axis against various years on the x-axis. To find the population density for 2018, I located the bar corresponding to the year 2018 on the x-axis and read the numerical value explicitly stated at the top of that bar, which is 182.9.</think>\n<answer>182.9</answer>",
+    "label": "182.9"
+  },
+  {
+    "image": "two_col_80933.png",
+    "question": "What was the value of U.S. product shipments of wood containers and pallets in 2009?",
+    "answer": "<think>The bar chart displays the \"Value in billion U.S. dollars\" on the Y-axis and years from 2002 to 2016 on the X-axis. To find the value for 2009, I located the bar corresponding to the year 2009 on the X-axis. The data label on top of this bar indicates the value. This value is 5.5. Therefore, the value was 5.5 billion U.S. dollars in 2009.</think>\n<answer>5.5</answer>",
+    "label": "5.5"
+  },
+  {
+    "image": "two_col_103963.png",
+    "question": "Who is the career rebounds leader of the Utah Jazz?",
+    "answer": "<think>The chart is a horizontal bar chart showing career rebounds for various players. The y-axis lists player names, and the x-axis represents the number of rebounds. Each bar's length and the adjacent numerical label indicate the total rebounds. Karl Malone has the longest bar, corresponding to 14,601 rebounds, which is the highest value shown on the chart. Thus, Karl Malone is the career rebounds leader among the players listed.</think>\n<answer>Karl Malone</answer>",
+    "label": "Karl Malone"
+  },
+  {
+    "image": "two_col_3923.png",
+    "question": "What percentage of accidents from sport result in spinal cord injuries?",
+    "answer": "<think>The chart is a bar graph showing the share of causes of spinal cord injury. The x-axis lists the causes, and the y-axis shows the percentage. I need to find the percentage associated with \"Sport\".\nI located \"Sport\" on the x-axis, and its corresponding value is 11.6%.</think>\n<answer>11.6</answer>",
+    "label": "11.6"
+  },
+  {
+    "image": "two_col_1840.png",
+    "question": "How much money did Ford spend on R&D in 2020?",
+    "answer": "<think>The bar chart displays expenditures in billion U.S. dollars by year. The X-axis represents the years from 2013 to 2020. The Y-axis represents expenditures in billion U.S. dollars. To find the expenditure for 2020, locate the bar corresponding to the year 2020 on the X-axis and read the value displayed at the top of that bar. The value for 2020 is 7.1.</think>\n<answer>7.1</answer>",
+    "label": "7.1"
+  },
+  {
+    "image": "two_col_3138.png",
+    "question": "How many metric tons of lead did Australia have in 2020?",
+    "answer": "<think>The bar chart displays lead reserves in million metric tons for various countries. The y-axis lists the countries, and the x-axis indicates the reserves. To find Australia's lead reserves, locate \"Australia\" on the y-axis. The corresponding bar has a value of 36. The x-axis label specifies \"Reserves in million metric tons\". Therefore, Australia had 36 million metric tons of lead. Converting this to metric tons yields 36,000,000 metric tons.</think>\n<answer>36</answer>",
+    "label": "36"
+  },
+  {
+    "image": "two_col_61346.png",
+    "question": "How much did Pinterest spend on R&D in the most recent year?",
+    "answer": "<think>The bar chart displays \"Spending in million U.S. dollars\" on the y-axis and years from 2016 to 2020 on the x-axis. Each bar represents the spending for a given year, with the exact value annotated above it. To find the spending in the most recent year, I located the bar corresponding to 2020, which is the last year shown. The value above the 2020 bar is 606.19.</think>\n<answer>606.19</answer>",
+    "label": "606.19"
+  },
+  {
+    "image": "two_col_212.png",
+    "question": "What is the estimated number of smartphone users in the U.S. in 2020?",
+    "answer": "<think>The bar chart displays smartphone users in millions from 2018 to 2025. The x-axis represents the years, and the y-axis represents \"Smartphone users in millions\". To find the estimated number of smartphone users in 2020, I located the bar corresponding to \"2020\" on the x-axis. The value displayed on top of this bar is 294.15. This value represents 294.15 million users.</think>\n<answer>294.15</answer>",
+    "label": "294.15"
+  },
+  {
+    "image": "two_col_1739.png",
+    "question": "What is the most valuable sports event brand?",
+    "answer": "<think>The chart provided is a horizontal bar chart displaying the brand value of various sports events in million U.S. dollars. The y-axis lists the sports events, and the x-axis represents the brand value. To find the most valuable brand, I need to identify the bar that extends farthest to the right, which corresponds to the highest value. The top bar represents \"Super Bowl\" and has a value of 780, which is the largest value presented on the chart.</think>\n<answer>Super Bowl</answer>",
+    "label": "Super Bowl"
+  },
+  {
+    "image": "two_col_20602.png",
+    "question": "What was the national debt of the Dominican Republic in dollars in 2019?",
+    "answer": "<think>The bar chart displays the national debt in billion U.S. dollars from 2016 to 2026. The X-axis represents the years, and the Y-axis represents the national debt. To find the national debt in 2019, I located the bar corresponding to the year 2019 on the X-axis. The value displayed directly above this bar is 42.96. The Y-axis label specifies the unit as \"billion U.S. dollars\".</think>\n<answer>42.96</answer>",
+    "label": "42.96"
+  },
+  {
+    "image": "two_col_21572.png",
+    "question": "What is the global sexual wellness market forecast to reach by 2023?",
+    "answer": "<think>The bar chart displays the \"Market size in billion U.S. dollars\" on the y-axis against \"Year\" on the x-axis from 2017 to 2023. To find the forecast for 2023, I located the bar labeled \"2023*\" on the x-axis and read the value displayed directly above this bar. The value for 2023* is 37.19.</think>\n<answer>37.19</answer>",
+    "label": "37.19"
+  },
+  {
+    "image": "two_col_24062.png",
+    "question": "What was the median ROI of social media marketing?",
+    "answer": "<think>The bar chart displays the median ROI for various marketing channels. To find the median ROI for social media marketing, I located the bar labeled \"Social media\" on the x-axis. The value displayed within this bar is 30%. The y-axis confirms that these values represent \"Median ROI\" in percentages.</think>\n<answer>30</answer>",
+    "label": "30"
+  },
+  {
+    "image": "two_col_102403.png",
+    "question": "How many barrels of oil did Iran produce per day as of June 2015?",
+    "answer": "<think>The bar chart displays oil production in million barrels per day for different periods. The x-axis labels the time points, and the y-axis shows the production volume. To answer the question, I located the bar corresponding to \"2015 (June)\" on the x-axis. The data label directly above this bar indicates a value of 2.8. This value represents 2.8 million barrels per day.</think>\n<answer>2.8</answer>",
+    "label": "2.8"
+  },
+  {
+    "image": "two_col_81880.png",
+    "question": "What was the market value of Nicols De La Cruz?",
+    "answer": "<think>The chart displays market values of various players in million U.S. dollars. I located \"Nicolás De La Cruz (AM)\" on the y-axis. The bar corresponding to this player has a data label of 17.1. Therefore, his market value is 17.1 million U.S. dollars.</think>\n<answer>17.1</answer>",
+    "label": "17.1"
+  },
+  {
+    "image": "multi_col_21019.png",
+    "question": "How many quadrillion British thermal units did fossil fuel consumption in the United States fall to in 2020?",
+    "answer": "<think>The user wants to find the value for fossil fuel consumption in the United States in the year 2020 from the provided line chart.\n\n1.  **Identify the relevant data series:** The legend indicates that the dark blue/black line represents \"Fossil fuels**\".\n2.  **Identify the relevant axes:** The x-axis represents the year, and the y-axis represents \"Consumption in quadrillion British thermal units\". The major gridlines on the y-axis are at intervals of 25 (0, 25, 50, 75, 100, 125).\n3.  **Locate the specific data point:** Find the year \"2020\" on the far right of the x-axis.\n4.  **Trace the data point:** Follow the vertical line for 2020 up to the dark blue/black line representing fossil fuels.\n5.  **Estimate the value:** Trace horizontally from this data point to the y-axis to read its value. The point is situated slightly below the 75 quadrillion British thermal units gridline. It is significantly higher than the 50 mark. A reasonable estimate for this position is approximately 73.</think>\n<answer>72.97</answer>",
+    "label": "72.97"
+  },
+  {
+    "image": "two_col_103930.png",
+    "question": "How many Czech koruna were spent on clothing in 2019?",
+    "answer": "<think>The user wants to find the final consumption expenditure for the year 2019 from the provided bar chart.\n\n1.  **Identify the relevant axes:** The horizontal axis (x-axis) represents the year, from 2008 to 2019. The vertical axis (y-axis) represents the \"Final consumption expenditure in million Czech koruna,\" with values ranging from 0 to 80,000.\n2.  **Locate the data point for 2019:** Find the year 2019 on the x-axis. It is the last bar on the right side of the chart.\n3.  **Read the value of the bar:** Follow the top of the bar for 2019 horizontally to the left to read its value on the y-axis.\n4.  **Estimate the value:** The top of the 2019 bar is clearly above the 70,000 grid line. It appears to be approximately one-fifth to one-fourth of the way between the 70,000 and 80,000 grid lines. A reasonable estimate would be around 72,000.\n5.  **State the final answer with units:** The y-axis unit is \"in million Czech koruna.\" Therefore, the value is approximately 72,000 million Czech koruna.</think>\n<answer>72137</answer>",
+    "label": "72137"
+  },
+  {
+    "image": "multi_col_101207.png",
+    "question": "What was the import value of animal feed in Canada in February 2020?",
+    "answer": "<think>The question asks for the import value in February 2020. I need to identify the line representing 2020 from the legend, which is the orange line with square markers. Then, I locate \"Feb\" on the x-axis. I follow the vertical line from \"Feb\" up to the orange data point. Finally, I read the corresponding value on the y-axis, \"Import value in million Canadian dollars\". The orange data point for February is visually aligned with 169 million Canadian dollars on the y-axis.</think>\n<answer>168.6</answer>",
+    "label": "168.6"
+  },
+  {
+    "image": "two_col_20329.png",
+    "question": "What company captured a sales share of about 69 percent of total Inditex Group's sales in 2020?",
+    "answer": "<think>The bar chart displays the sales share of different brands within the Inditex Group. The y-axis lists the company names, and the x-axis represents the sales share percentage. Each horizontal bar corresponds to a company, and its length indicates its sales share, with the exact percentage labeled next to it. I need to find the company associated with a sales share of approximately 69 percent. Observing the chart, Zara has a sales share of 69.25%, which is about 69 percent.</think>\n<answer>Zara</answer>",
+    "label": "Zara"
+  },
+  {
+    "image": "two_col_22385.png",
+    "question": "How much was Thomas Cook's pre-tax profit in 2015?",
+    "answer": "<think>The chart displays profit/loss in million GBP over several years. To find Thomas Cook's pre-tax profit in 2015, I located the year '2015' on the x-axis. I then identified the blue bar corresponding to this year. The value explicitly stated above the bar for 2015 is '50'. The y-axis label confirms the units are \"million GBP\", and since the value is positive, it represents a profit.</think>\n<answer>50</answer>",
+    "label": "50"
+  },
+  {
+    "image": "two_col_3119.png",
+    "question": "What was the average ticket price for Cleveland Indians games in 2019?",
+    "answer": "<think>The user is asking for the average ticket price for Cleveland Indians games in 2019 based on the provided bar chart. I will examine the chart to find the relevant data.\n1.  **Identify the Y-axis:** It represents \"Average ticket price in U.S. dollars\".\n2.  **Identify the X-axis:** It represents years, ranging from 2006 to 2019.\n3.  **Locate the year 2019:** Find the bar corresponding to the year \"2019\" on the X-axis.\n4.  **Read the value:** The value displayed directly above the bar for 2019 is \"31.16\".\n5.  **Address the specific entity:** The chart's title or labels do not specify \"Cleveland Indians games\"; it only states \"Average ticket price in U.S. dollars.\" However, assuming the question refers to the data presented in the chart for the specified year, the value is extracted.</think>\n<answer>31.16</answer>",
+    "label": "31.16"
+  },
+  {
+    "image": "two_col_1293.png",
+    "question": "How much revenue did the FedEx Corporation generate in the fiscal year of 2020?",
+    "answer": "<think>The bar chart displays revenue in billion U.S. dollars over several years. The x-axis represents the years from 2009 to 2020. The y-axis represents \"Revenue in billion U.S. dollars\". To find the revenue for 2020, I located the bar corresponding to the year \"2020\" on the x-axis. The value displayed directly above this bar is 69.22.</think>\n<answer>69.22</answer>",
+    "label": "69.22"
+  },
+  {
+    "image": "two_col_40852.png",
+    "question": "How much did Paraguay's real GDP increase in 2018?",
+    "answer": "<think>The user is asking for the GDP increase in Paraguay for the year 2018, based on the provided bar chart.\n\n1.  I will examine the chart's axes. The vertical axis (y-axis) is labeled \"GDP growth compared to previous year,\" representing the percentage increase. The horizontal axis (x-axis) represents the years from 2016 to 2026.\n2.  I will locate the year 2018 on the x-axis.\n3.  I will identify the corresponding blue bar for the year 2018.\n4.  I will read the numerical value printed on top of that bar.\n5.  The value on top of the bar for 2018 is \"3.36%\". This represents the GDP growth for that year.</think>\n<answer>3.36</answer>",
+    "label": "3.36"
+  }
+]
