@@ -13,9 +13,9 @@ def create_trainer(
     training_args = TrainingArguments(
         output_dir=config.training.output_dir,
         num_train_epochs=config.training.num_train_epochs,
-        per_device_train_batch_size=config.training.per_device_train_batch_size,
-        per_device_eval_batch_size=config.training.per_device_train_batch_size,
-        gradient_accumulation_steps=config.training.gradient_accumulation_steps,
+        per_device_train_batch_size=1,
+        per_device_eval_batch_size=1,
+        gradient_accumulation_steps=8,
         learning_rate=config.training.learning_rate,
         weight_decay=config.training.weight_decay,
         lr_scheduler_type=config.training.lr_scheduler_type,
@@ -30,12 +30,13 @@ def create_trainer(
         bf16=config.training.bf16,
         optim=config.training.optim,
         seed=config.training.seed,
-        neftune_noise_alpha=config.training.neftune_noise_alpha,
         load_best_model_at_end=config.training.load_best_model_at_end,
         metric_for_best_model=config.training.metric_for_best_model,
         greater_is_better=config.training.greater_is_better,
         report_to=config.training.report_to,
         remove_unused_columns=config.training.remove_unused_columns,
+        dataloader_num_workers=0,
+        ddp_find_unused_parameters=False,
     )
     
 

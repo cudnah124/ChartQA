@@ -4,7 +4,7 @@ import os
 
 @dataclass
 class ModelConfig:
-    model_name: str = "unsloth/Qwen2-VL-2B-Instruct"
+    model_name: str = "Qwen/Qwen3-VL-2B-Thinking"
     max_seq_length: int = 1024
     dtype: Optional[str] = None
     load_in_4bit: bool = True
@@ -38,8 +38,8 @@ class DataConfig:
 class TrainingConfig:
     output_dir: str = "./checkpoints"
     num_train_epochs: int = 1
-    per_device_train_batch_size: int = 2
-    gradient_accumulation_steps: int = 4
+    per_device_train_batch_size: int = 1
+    gradient_accumulation_steps: int = 8
     learning_rate: float = 2e-5
     weight_decay: float = 0.05
     lr_scheduler_type: str = "cosine"
@@ -50,9 +50,9 @@ class TrainingConfig:
     save_total_limit: int = 2
     fp16: bool = True
     bf16: bool = False
-    optim: str = "adamw_torch"
+    optim: str = "adamw_8bit"
     seed: int = 3407
-    neftune_noise_alpha: float = 0.0
+    neftune_noise_alpha: float = 5.0
     load_best_model_at_end: bool = True
     metric_for_best_model: str = "eval_loss"
     greater_is_better: bool = False

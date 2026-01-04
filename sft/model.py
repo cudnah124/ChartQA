@@ -1,4 +1,4 @@
-from transformers import Qwen2VLForConditionalGeneration, AutoProcessor
+from transformers import Qwen3VLForConditionalGeneration, AutoProcessor
 from peft import LoraConfig, get_peft_model
 import torch
 
@@ -8,19 +8,19 @@ def load_model_and_processor(config):
     print("=" * 60)
     
 
-    model = Qwen2VLForConditionalGeneration.from_pretrained(
-        "Qwen/Qwen2-VL-2B-Instruct",
+    model = Qwen3VLForConditionalGeneration.from_pretrained(
+        "Qwen/Qwen3-VL-2B-Thinking",
         torch_dtype=torch.float16,
         device_map="auto",
         trust_remote_code=True
     )
     
     processor = AutoProcessor.from_pretrained(
-        "Qwen/Qwen2-VL-2B-Instruct",
+        "Qwen/Qwen3-VL-2B-Thinking",
         trust_remote_code=True
     )
     
-    print(f"✅ Loaded model: Qwen/Qwen2-VL-2B-Instruct")
+    print(f"✅ Loaded model: Qwen/Qwen3-VL-2B-Thinking")
     print(f"   Max sequence length: {config.model.max_seq_length}")
     
 
