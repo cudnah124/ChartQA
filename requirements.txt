@@ -1,0 +1,10 @@
+transformers>=4.46.0
+datasets
+trl
+peft
+pillow
+accelerate
+bitsandbytes
+torch>=2.0.0
+tqdm
+numpy

@@ -1,134 +1,138 @@
-# ChartQA: Visual Reasoning for Chart Question Answering
+# ChartQA with Qwen3-VL
 
-## Project Overview
+Fine-tuning Qwen3-VL-2B for chart question answering using SFT and GRPO.
 
-This research project focuses on developing an AI system capable of understanding and reasoning about chart visualizations to answer natural language questions. The goal is to enable models to perform complex visual reasoning tasks that combine chart comprehension with multi-step logical thinking.
+## Overview
 
-## Research Objectives
+This repository implements a two-stage training pipeline for chart question answering:
+1. **SFT (Supervised Fine-Tuning)**: Initial fine-tuning on ChartQA dataset
+2. **GRPO (Group Relative Policy Optimization)**: Reinforcement learning to improve format compliance and accuracy
 
-### Primary Goal
-Train a vision-language model to:
-- **Understand chart visualizations** (bar charts, line graphs, pie charts, etc.)
-- **Extract quantitative information** from visual elements
-- **Perform multi-step reasoning** to answer complex questions
-- **Generate explicit reasoning chains** before providing final answers
+## Model
 
-### Key Research Questions
-1. Can we improve chart QA performance by teaching models to "think step-by-step"?
-2. How does explicit reasoning generation impact answer accuracy?
-3. What is the optimal format for representing reasoning in vision-language models?
+- **Base Model**: Qwen/Qwen3-VL-2B-Instruct
+- **SFT Model**: Nhaass/Qwen3-VL-2B-ChartQA
+- **GRPO Model**: Nhaass/Qwen3-VL-2B-ChartQA-GRPO
 
-## Methodology
+## Installation
 
-### Dataset
-- **Source**: ChartQA benchmark dataset
-- **Size**: 1,000 training samples, 195 validation samples
-- **Content**: Chart images paired with questions and ground-truth answers
-- **Augmentation**: Generated reasoning chains using large language models
+```bash
+pip install -r requirements.txt
+```
 
-### Data Format Innovation
-We developed a novel training format that separates reasoning from answers:
-- **Input**: Chart image + Natural language question
-- **Output**: Reasoning text + Structured answer `{answer: "value"}`
+## Dataset Structure
 
-This format encourages the model to:
-1. Analyze the chart systematically
-2. Articulate its reasoning process
-3. Provide a final answer based on that reasoning
+```
+ChartQADataset/
+├── train/
+│   ├── train_augmented.json
+│   └── png/
+├── val/
+│   ├── val_augmented.json
+│   └── png/
+└── test/
+    ├── test_augmented.json
+    └── png/
+```
 
-### Model Architecture
-- **Base Model**: Qwen2-VL-2B-Instruct (vision-language model)
-- **Training Method**: Supervised Fine-Tuning (SFT) with LoRA
-- **Key Features**:
-  - Multi-modal understanding (vision + language)
-  - Efficient parameter tuning (LoRA adapters)
-  - Completion-only training (loss computed only on model responses)
+## Training
 
-### Training Strategy
+### SFT Training
 
-**Phase 1: Data Preparation**
-- Converted existing ChartQA data to reasoning-augmented format
-- Separated reasoning chains from final answers
-- Ensured data quality and format consistency
+```bash
+cd sft
+python train.py
+```
 
-**Phase 2: Supervised Fine-Tuning**
-- Fine-tuned vision-language model on augmented dataset
-- Applied label masking to train only on assistant responses
-- Optimized for both reasoning quality and answer accuracy
+### GRPO Training
 
-**Phase 3: Evaluation**
-- Monitored training/validation loss convergence
-- Assessed reasoning coherence and answer correctness
-- Compared performance against baseline models
+```bash
+cd grpo
+python train.py
+```
 
-**Phase 4: Reinforcement Learning** *(Planned)*
-- *To be implemented*
-- *Details to be added*
+## Evaluation
 
-## Technical Contributions
+```bash
+python test_model.py
+```
 
-### 1. Reasoning-Augmented Training Format
-Developed a structured format that explicitly separates:
-- **Think**: Step-by-step reasoning about the chart
-- **Answer**: Final response in JSON format
+## Project Structure
 
-This approach mirrors human problem-solving and improves model interpretability.
+```
+ChartQA/
+├── sft/                  # Supervised fine-tuning
+│   ├── config.py
+│   ├── model.py
+│   ├── data_loader.py
+│   ├── collator.py
+│   ├── callbacks.py
+│   ├── trainer.py
+│   └── train.py
+│
+├── grpo/                 # GRPO training
+│   ├── config.py
+│   ├── model.py
+│   ├── data_loader.py
+│   ├── rewards.py
+│   ├── callbacks.py
+│   ├── trainer.py
+│   └── train.py
+│
+├── test_model.py         # Evaluation script
+└── requirements.txt
+```
 
-### 2. Custom Data Collator
-Implemented specialized data processing that:
-- Properly handles vision-language inputs
-- Masks labels for completion-only training
-- Ensures efficient batch processing with variable-length sequences
+## Configuration
 
-### 3. Modular Training Pipeline
-Created a flexible, maintainable codebase with:
-- Separation of concerns (config, data, model, training)
-- Comprehensive testing at each stage
-- Easy experimentation with different configurations
+### SFT Config (`sft/config.py`)
 
-## Research Findings
+- Model: Qwen3-VL-2B-Thinking
+- LoRA rank: 16
+- Batch size: 1 (with gradient accumulation)
+- Learning rate: 2e-5
 
-### Training Dynamics
-- **Initial Loss**: ~1.19
-- **Converged Loss**: ~1.02 (after 35 steps)
-- **Validation Performance**: Eval loss closely tracks training loss (good generalization)
-- **No Overfitting**: Small gap between training and validation metrics
+### GRPO Config (`grpo/config.py`)
 
-### Key Observations
-1. **Rapid Convergence**: Model quickly learns the reasoning format
-2. **Stable Training**: Smooth loss curves with minimal oscillation
-3. **Good Generalization**: Validation performance matches training performance
+- Reward components: format, accuracy, length
+- Lambda weights: configurable
+- KL coefficient: 0.1
+- Num samples per prompt: 4
 
-## Future Directions
+## Reward Function
 
-### Potential Extensions
-1. **Reinforcement Learning**: Apply GRPO/PPO for further refinement
-2. **Larger Models**: Scale to 7B+ parameter models for better performance
-3. **Multi-Chart Reasoning**: Extend to questions requiring multiple charts
-4. **Interactive Reasoning**: Enable models to ask clarifying questions
+GRPO uses a multi-component reward:
 
-### Research Applications
-- **Data Analysis Automation**: Automated chart interpretation for business intelligence
-- **Accessibility**: Helping visually impaired users understand charts
-- **Education**: Interactive tutoring systems for data literacy
-- **Scientific Research**: Automated analysis of research figures
+```
+reward = λ_format × format × (λ_acc × accuracy + λ_len × length) + λ_format × format - 1
+```
 
-## Impact
+Where:
+- **format**: 1 if output has JSON format, 0 otherwise
+- **accuracy**: 1 if answer matches ground truth, 0 otherwise
+- **length**: Dynamic reward based on response length
 
-This project demonstrates that:
-- Vision-language models can learn structured reasoning for chart QA
-- Explicit reasoning generation improves model interpretability
-- Proper data formatting significantly impacts training effectiveness
-- Modular design enables rapid experimentation and iteration
+## Results
 
-## Acknowledgments
+Test the model on ChartQA test set:
 
-This research builds upon:
-- **ChartQA Dataset**: Benchmark for chart question answering
-- **Qwen2-VL**: State-of-the-art vision-language model
-- **LoRA**: Efficient fine-tuning methodology
-- **Transformers Library**: Foundation for model training
+```bash
+python test_model.py
+```
 
----
+Results are saved to `test_results.json`.
 
-*This project represents ongoing research in visual reasoning and multi-modal AI systems.*
+## License
+
+MIT License - see LICENSE file for details.
+
+## Citation
+
+```bibtex
+@misc{chartqa-qwen3vl,
+  title={ChartQA with Qwen3-VL: SFT and GRPO Training},
+  author={ChartQA Project},
+  year={2026},
+  url={https://github.com/yourusername/ChartQA}
+}
+```
