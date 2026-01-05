@@ -121,6 +121,10 @@ python test_model.py
 ```
 
 Results are saved to `test_results.json`.
+## Demo
+
+You can try the live demo on Hugging Face:
+[ChartQA-Qwen3-VL-2B Demo](https://huggingface.co/spaces/Nhaass/ChartQA-Qwen3-VL-2B)
 
 ## License
 
