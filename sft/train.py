@@ -1,15 +1,14 @@
 import os
-import sys
 
-
-sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-
-from config import get_config
-from model import load_model_and_processor, print_trainable_parameters
-from data_loader import load_and_process_dataset
-from collator import QwenCompletionCollator
-from trainer import create_trainer
-from callbacks import TrainingMonitorCallback
+from sft import (
+    get_config,
+    load_model_and_processor,
+    print_trainable_parameters,
+    load_and_process_dataset,
+    QwenCompletionCollator,
+    create_trainer,
+    TrainingMonitorCallback
+)
 
 def main():
     print("\n" + "=" * 80)
